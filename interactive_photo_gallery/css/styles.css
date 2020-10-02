@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 850px;
+  margin: auto;
+}
+
+.search {
+  margin: 40px auto;
+  text-align: center;
+}
+
+#search_box {
+  width: 30%;
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, Serif;
+}
+
+.grid-layout {
+  max-width: 856px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-gap: 5px;
+}
+
+.picture {
+  display: inline;
+}
